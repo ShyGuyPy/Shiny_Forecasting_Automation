@@ -24,8 +24,10 @@ rm(Get, ins, need)
 library(dplyr)
 library(reticulate)
 
+#open portable python
+shell.exec(paste0(getwd(),"portable_python/unzip_python.bat"))
 
-
+Sys.sleep(60) 
 
 #use python packaged with r project
 use_python(paste0(getwd(),"/portable_python/Python 3.9"))
