@@ -1,3 +1,4 @@
+py get-pip.py
 pip install virtualenv
 pip install --upgrade pip
 pip install pywin32
