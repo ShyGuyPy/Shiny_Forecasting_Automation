@@ -1,4 +1,4 @@
-dashboardPage(skin = "lightblue",
+dashboardPage(skin = "blue",
               dashboardHeader(title = "forecasting automation",
                               .list = NULL
                               

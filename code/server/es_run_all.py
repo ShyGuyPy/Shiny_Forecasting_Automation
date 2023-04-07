@@ -1,10 +1,12 @@
-###all win32...(ex:win32com,win32gui,etc) are from the module pywin32 --pip install pywin32 will make these imports available
+##this is a workaronud to an issue were win32com module would not 
+#import properly whe run through r reticulate module
+
 import win32com.client
 import win32gui as wg
 import win32con
 import time
-#
-#
+
+
 if (__name__ == '__main__'):
 
   def open_and_ID(prog_ID, win_ID):
@@ -52,4 +54,4 @@ if (__name__ == '__main__'):
 
 print("working")
 
-# run_all()
+run_all()

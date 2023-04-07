@@ -4,9 +4,9 @@
 #----import packages
 # source("code/global/import_packages.R", local = TRUE)
 source("code/global/load_packages.R", local = TRUE)
-source_python("code/functions/python_functions.py")
+# source_python("code/functions/python_functions.py")
 
 #set python version to projects python version
 
-use_python(paste0(getwd(),"/portable_python/Python 3.9"))
+# use_python(paste0(getwd(),"/portable_python/Python 3.9"))
 
