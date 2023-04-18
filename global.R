@@ -4,7 +4,7 @@
 #----import packages
 # source("code/global/import_packages.R", local = TRUE)
 source("code/global/load_packages.R", local = TRUE)
-# source_python("code/functions/python_functions.py")
+source_python("code/functions/es_automation/python_functions.py")
 
 #set python version to projects python version
 
